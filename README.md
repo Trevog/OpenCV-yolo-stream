@@ -5,7 +5,9 @@ Real time object detection in (youtube) video stream:
 * Streamlink
 
 For an introduction to opencv and yolo refer to:
+
 https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
+
 The sourcecode from this blog by Adrian Rosebrock is the starting point for this repository.
 
 ## Intro
