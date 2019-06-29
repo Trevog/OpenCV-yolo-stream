@@ -1,7 +1,6 @@
 # OpenCV-yolo-stream
 Real time object detection in (youtube) video stream:
-* OpenCV
-* YOLO, Darknet
+* OpenCV with YOLOv3 detectionmethod (https://pjreddie.com/darknet/yolo/)
 * Streamlink
 
 For an introduction to opencv and yolo refer to:
