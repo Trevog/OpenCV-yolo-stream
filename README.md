@@ -17,6 +17,5 @@ The sourcecode from this blog by Adrian Rosebrock is the starting point for this
 ## COCO
 
 ## Output
+![](output1.png)
 
-<h3><b><u>Image Prediction</u></b></h3>
-<p><img src="output1.png" style="width: 400px; height: auto;" /> 
