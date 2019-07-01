@@ -3,7 +3,7 @@ Real time object detection in (youtube) video stream:
 * OpenCV with YOLOv3 detectionmethod (https://pjreddie.com/darknet/yolo/) 
 * Streamlink (https://github.com/streamlink/streamlink)
 <br><br>
- `$ pip install opencv-python'
+`$  pip install opencv-python`
 
 ## Intro
 
