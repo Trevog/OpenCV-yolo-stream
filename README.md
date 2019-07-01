@@ -17,5 +17,5 @@ The sourcecode from this blog by Adrian Rosebrock is the starting point for this
 ## COCO
 
 ## Output
-![](output1.png)
+<img src="output1.png" style="width: 500px; height: auto; margin-left: 50px; " /> <br>
 
