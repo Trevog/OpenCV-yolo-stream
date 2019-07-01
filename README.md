@@ -13,5 +13,5 @@ Download the YOLOv3 weights:
 The weights have been trained on the COCO dataset (http://cocodataset.org)
 
 ## Example Output
-![](output_JacksonHole.jpg)
+![](output_JacksonHole.JPG)
 
