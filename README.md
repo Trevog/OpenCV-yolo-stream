@@ -1,14 +1,9 @@
 # OpenCV-yolo-stream
 Real time object detection in (youtube) video stream:
-* OpenCV with YOLOv3 detectionmethod (https://pjreddie.com/darknet/yolo/) <br>
- `$ pip install numpy opencv-python'
-* Streamlink
-
-For an introduction to opencv and yolo refer to:
-
-https://www.pyimagesearch.com/2018/11/12/yolo-object-detection-with-opencv/
-
-The sourcecode from this blog by Adrian Rosebrock is the starting point for this repository.
+* OpenCV with YOLOv3 detectionmethod (https://pjreddie.com/darknet/yolo/) 
+* Streamlink (https://github.com/streamlink/streamlink)
+<br><br>
+ `$ pip install opencv-python'
 
 ## Intro
 
