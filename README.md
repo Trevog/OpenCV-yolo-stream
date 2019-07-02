@@ -19,10 +19,14 @@ Example youtube streams: Jackson Hole Wyoming USA Live Cams - SeeJH.com
 * https://youtu.be/1EiC9bvVGnk
 * https://youtu.be/RZWzyQuFxgE
 <br><br>
+Here I used:
+* confidence level 0.30
+* threshold level 0.55
+<br><br>
 Works reasonably well! However as expected, not every car and person is detected.
 <br><br>
-![](output_JacksonHole.JPG)
-<br><br>
 ![](output_JacksonHole2.JPG)
+<br><br>
+![](output_JacksonHole3.JPG)
 
 
