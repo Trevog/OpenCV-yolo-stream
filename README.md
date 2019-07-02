@@ -16,6 +16,10 @@ Download the YOLOv3 weights:
  `$ wget https://pjreddie.com/media/files/yolov3.weights` <br><br>
 The weights have been trained on the COCO dataset (http://cocodataset.org)
 
-## Example Output
+## Example Output Jackson Hole Town Square Webcam
+<br><br>
 ![](output_JacksonHole.JPG)
+<br><br>
+![](output_JacksonHole2.JPG)
+
 
