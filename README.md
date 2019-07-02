@@ -14,8 +14,7 @@ Download the YOLOv3 weights:
 The weights have been trained on the COCO dataset (http://cocodataset.org)
 
 ## Example Output Jackson Hole Town Square Webcam
-<br><br>
-Example youtube streams: Jackson Hole Wyoming USA Live Cams - SeeJH.com
+ Example youtube streams: Jackson Hole Wyoming USA Live Cams - SeeJH.com
 * https://youtu.be/1EiC9bvVGnk
 * https://youtu.be/RZWzyQuFxgE
 <br><br>
