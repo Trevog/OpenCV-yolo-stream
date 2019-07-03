@@ -1,8 +1,8 @@
 # run in command prompt (no output files)
-# python yolo_video_stream_v2.py --yolo yolo-coco --url https://youtu.be/1EiC9bvVGnk
+# python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/1EiC9bvVGnk
 
 # run in command prompt (with output files)
-# python yolo_video_stream_v2.py --yolo yolo-coco --url https://youtu.be/RZWzyQuFxgE --output output/ouput_videosteam.avi --data output/CSV/data_videosteam.csv 
+# python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/RZWzyQuFxgE --output output/ouput_videosteam.avi --data output/CSV/data_videosteam.csv 
 
 # import the necessary packages
 import numpy as np
