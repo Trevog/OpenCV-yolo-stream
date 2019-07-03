@@ -21,7 +21,7 @@ The weights have been trained on the COCO dataset (http://cocodataset.org)
 Here I used:
 * confidence level 0.30
 * threshold level 0.55
-<br>
+<br><br><br>
 Works reasonably well! However as expected, not every car and person is detected.
 <br><br>
 ![](output_JacksonHole2.JPG)
