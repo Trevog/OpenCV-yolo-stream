@@ -24,8 +24,8 @@ Here I used:
 <br><br>
 Works reasonably well! However as expected, not every car and person is detected.
 <br><br>
-![](output_JacksonHole2.JPG)
+![](JacksonHole1.JPG)
 <br><br>
-![](output_JacksonHole3.JPG)
+![](JacksonHole2.JPG)
 
 
