@@ -2,7 +2,9 @@
 # python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/1EiC9bvVGnk
 
 # run in command prompt (with output files)
-# python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/RZWzyQuFxgE --output output/ouput_videosteam.avi --data output/CSV/data_videosteam.csv 
+# python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/1EiC9bvVGnk --output output/ouput_videosteam.avi --data output/CSV/data_videosteam.csv 
+
+# JacksonHole streams https://youtu.be/RZWzyQuFxgE & https://youtu.be/1EiC9bvVGnk
 
 # import the necessary packages
 import numpy as np
@@ -27,7 +29,7 @@ ap.add_argument("-d", "--data", required=False,
     help="path to output csv")
 ap.add_argument("-y", "--yolo", required=True,
     help="base path to yolov weights, cfg and coco directory")
-ap.add_argument("-c", "--confidence", type=float, default=0.3,
+ap.add_argument("-c", "--confidence", type=float, default=0.4,
     help="minimum probability to filter weak detections")
 ap.add_argument("-t", "--threshold", type=float, default=0.55,
     help="threshold when applyong non-maxima suppression")
@@ -142,6 +144,8 @@ while True:
     #set initial objects to 0
     persons = 0
     cars = 0
+    trucks = 0
+    busses = 0
     # ensure at least one detection exists
     if len(idxs) > 0:
 
@@ -152,7 +156,7 @@ while True:
             (w, h) = (boxes[i][2], boxes[i][3])
 
             # check for specific objects
-            if ("{}".format(LABELS[classIDs[i]]) == "person") or ("{}".format(LABELS[classIDs[i]]) == "car"):
+            if ("{}".format(LABELS[classIDs[i]]) == "person") or ("{}".format(LABELS[classIDs[i]]) == "car") or ("{}".format(LABELS[classIDs[i]]) == "truck") or ("{}".format(LABELS[classIDs[i]]) == "bus"):
                 # draw a bounding box rectangle and label on the frame
                 color = [int(c) for c in COLORS[classIDs[i]]]
                 cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
@@ -165,9 +169,14 @@ while True:
                   persons+=1
                 if "{}".format(LABELS[classIDs[i]]) == "car":
                   cars+=1
-
+                if "{}".format(LABELS[classIDs[i]]) == "truck":
+                  trucks+=1
+                if "{}".format(LABELS[classIDs[i]]) == "bus":
+                  busses+=1
     # construct a tuple of information we will be displaying on the frame
     info = [
+        ("Busses", busses),
+        ("Trucks", trucks),
         ("Cars", cars),
         ("Persons", persons),   
     ]
