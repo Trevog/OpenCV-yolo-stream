@@ -1,8 +1,8 @@
 # run in command prompt (no output files)
-# python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/1EiC9bvVGnk
+# python OpenCV-yolo-stream.py --yolo --url https://youtu.be/1EiC9bvVGnk
 
 # run in command prompt (with output files)
-# python OpenCV-yolo-stream.py --yolo yolo-coco --url https://youtu.be/1EiC9bvVGnk --output output/ouput_videosteam.avi --data output/CSV/data_videosteam.csv 
+# python OpenCV-yolo-stream.py --yolo --url https://youtu.be/1EiC9bvVGnk --output output/ouput_videosteam.avi --data output/CSV/data_videosteam.csv 
 
 # JacksonHole streams https://youtu.be/RZWzyQuFxgE & https://youtu.be/1EiC9bvVGnk
 
@@ -237,7 +237,6 @@ if args["data"] is not None:
     obj_df.columns = ['Frame','Objects', 'Persons', 'Cars' , 'DateTime']
     obj_df.to_csv(args["data"]) 
 
-writer.release()
 cv2.destroyAllWindows()
 
 
