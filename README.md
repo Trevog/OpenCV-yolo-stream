@@ -25,7 +25,7 @@ Here I used:
 * confidence level 0.30
 * threshold level 0.55
 <br><br>
-Works reasonably well! However as expected, not every car and person is detected.
+
 <br><br>
 ![](JacksonHole1.jpg)
 <br><br>
